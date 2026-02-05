@@ -115,6 +115,18 @@ hr{
   translate: -50% -50%;
 }
 
+.new{
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #1A0B2E;
+  background-color: #00FF88;
+  box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+  padding: 8px 16px;
+  border-radius: 10000px;
+  right: 25%;
+  position: absolute;
+  top: 2%;
+}
 
 .hero-title{
   font-size: 3.75rem;
@@ -163,6 +175,11 @@ hr{
   .microphone img{
    width: 45px;
   }
+  .new{
+    font-size: 1rem;
+    top: 5%;
+    right: 27%;
+  }
   .hero-banner{
     padding-top: 40px;
      background-size: contain;
@@ -180,6 +197,7 @@ hr{
   #spotify{
     display: block;
   }
+
   
 }
 
@@ -198,6 +216,11 @@ hr{
   }
  .microphone img{
    width: 80px;
+  }
+   .new{
+    font-size: 1rem;
+    top: 5%;
+    right: 27%;
   }
   .hero-container{
     padding-bottom: 50px;
