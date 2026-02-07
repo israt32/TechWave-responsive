@@ -47,6 +47,20 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+.title{
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 16px;
+  text-align: center;
+}
+#margin-top{
+  margin-top: 24px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
 /* header part ------------------*/
 
 /* navbar part */
@@ -130,7 +144,6 @@ hr{
 }
 
 
-
 @keyframes pulse-new {
   0% {
     transform: scale(1);
@@ -175,17 +188,42 @@ hr{
   }
 
 
- 
+ /* about part */
+
+.about{
+  background-color: #1A0B2E;
+  padding: 50px 0 120px;
+  text-align: center;
+}
 
 
+.about-description{
+  max-width: 750px;
+  margin: 0 auto;
+  width: 75% ;
+  line-height: 2rem;
+}
+.about-hr{
+  margin: 80px 0;
+}
+.about-info{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
 
+.about-number{
+  font-size: 3rem;
+  font-weight:800;
+  color: #00FF88;
+  margin-bottom: 10px;
+}
 
 
 @media screen and (max-width: 576px) {
   .container{
     width: 90%;
-  }
-  
+  }  
   .navbar{
     padding: 20px 0;
   }
@@ -207,8 +245,8 @@ hr{
   }
   .new{
     font-size: 1rem;
-    top: 5%;
-    right: 27%;
+    top: 0%;
+    right: 25%;
   }
   .hero-banner{
     padding-top: 40px;
@@ -227,11 +265,38 @@ hr{
   #spotify{
     display: block;
   }
-
   
+  /* about */
+  .about{
+    padding: 40px 0;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .about-description{
+  width: 100% ;
+  line-height: 1.3rem;
+  }
+  .about-hr{
+  margin: 40px 0;
+  }
+  .about-info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  }
+  .about-number{
+    font-size: 2.5rem;
+  }
+  .uppercase{
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  .container{
+     width: 90%;
+  }
   .navbar{
     flex-wrap: wrap;  
     gap: 20px;
@@ -255,5 +320,20 @@ hr{
   .hero-container{
     padding-bottom: 50px;
   }
- 
+  /* about */
+  .about{
+    padding: 50px 0 80px;
+  }
+ .about-description{
+  width: 100% ;
+  line-height: 1.3rem;
+  }
+   .about-hr{
+  margin: 60px 0;
+  }
+  .about-info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  }
 }
