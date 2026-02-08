@@ -313,7 +313,41 @@ hr{
   font-size: 1rem;
  }
 
-
+ /* host */
+.host{
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.host-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.host-image{
+  max-width: 200px;
+}
+.host-name{
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.social-network-icons{
+  display: flex;
+  gap: 8px;
+}
+.host-circle{
+  border: 1px solid #533C72;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 576px) {
   .container{
@@ -435,6 +469,20 @@ hr{
    border-radius: 24px 24px 0 0;
 }
 
+/* host */
+.host{
+  border-radius: 24px;
+  padding: 24px;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+.host-name{
+  font-size: 1.5rem;
+}
+.social-network-icons{
+  justify-content: center;
+}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
